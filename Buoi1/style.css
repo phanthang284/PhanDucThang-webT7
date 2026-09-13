@@ -1,0 +1,36 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 15px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 8px 12px;
+}
+th {
+    text-align: center;
+    font-weight: bold;
+}
+.center-vertical {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.1em;
+}
+td img {
+    display: block;
+    max-width: 450px; 
+    height: auto;
+}
+a {
+    color: blue;
+    text-decoration: underline;
+}
